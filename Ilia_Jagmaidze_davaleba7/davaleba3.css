@@ -1,0 +1,24 @@
+
+.main{
+    width: 80%;
+    height: 300px;
+    border: solid 3px black;
+    margin: auto;
+
+}
+.container {
+    display: flex;
+    align-content: space-around;
+    background-color: lightgray;
+    justify-content: flex-start;
+    flex-wrap: wrap;   
+    border: solid 2px wheat;
+
+  }
+  
+  .container > div {
+    background-color: #f1f1f1;
+    width: 19%;
+    height: 56px;
+
+  }

@@ -1,0 +1,19 @@
+.container{
+    border: solid black 1px;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    min-height: 400px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: flex-start;
+ }
+ 
+ .container div{
+    background-color: #9bce0b;
+    margin: 10px;
+    height: 70px;
+ }
